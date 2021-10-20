@@ -1,0 +1,20 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form h2 {
+  color: white;
+}
+.login-form-edit {
+  border-radius: 5px;
+}
+
+.login-text {
+  text-decoration: none;
+}
+
+.txt-color{
+    color: white;
+}

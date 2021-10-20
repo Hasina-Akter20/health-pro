@@ -1,0 +1,26 @@
+.line {
+  width: 47%;
+  height: 2px;
+}
+
+.or-line {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.or-line p {
+  padding: 5px;
+  margin: 0%;
+}
+
+.login-button {
+  display: flex;
+  justify-content: center;
+}
+
+.login-buttons {
+  color: white;
+  width: 13%;
+  font-size: large;
+}

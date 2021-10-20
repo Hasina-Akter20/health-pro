@@ -1,15 +1,16 @@
-import Button from "react-bootstrap/Button";
 import React from "react";
 import { Form } from "react-bootstrap";
-import "./Register.css";
+import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-
-const Register = () => {
+import useFirebase from "../../hooks/authFirebase";
+import "./Login.css";
+const Login = () => {
+  // const { user, signInUsingGoogle, logOut } = useFirebase();
   return (
     <div>
       <div className="login-form ">
         <Form className="w-25 bg-dark p-4 mt-5 login-form-edit">
-          <h3 className="txt-color">Creat a new account</h3>
+          <h2>Sign In</h2>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter email" />
@@ -21,13 +22,13 @@ const Register = () => {
           </Form.Group>
 
           <Button variant="warning w-100" type="submit">
-            Register
+            Log In
           </Button>
         </Form>
-        <p className="text-center mt-4">
-          Already have an account? &nbsp;
-          <Link to="/login" className="text-primary login-text">
-            Log In
+        <p className="text-center mt-4 mb-0">
+          Don't have any account? &nbsp;
+          <Link to="/register" className="text-primary login-text ">
+            Create a new account
           </Link>
         </p>
         <div className="w-25 d-flex or-line mt-3">
@@ -35,7 +36,6 @@ const Register = () => {
           <div className="bg-dark line"></div>
         </div>
       </div>
-
       <div className="login-button mt-4 mb-5">
         <button className="btn btn-danger btn-gradient me-3 login-buttons">
           <i class="fab fa-google"></i>&nbsp; Google
@@ -48,4 +48,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+// export default Login;
