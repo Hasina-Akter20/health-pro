@@ -4,17 +4,22 @@
   justify-content: center;
   align-items: center;
 }
+/* login-form-edit{
+  background-color: aquamarine;
+  width: 80%;
+} */
 .login-form h2 {
   color: white;
 }
 .login-form-edit {
   border-radius: 5px;
+  width: 300px;
 }
 
 .login-text {
   text-decoration: none;
 }
 
-.txt-color{
-    color: white;
+.txt-color {
+  color: white;
 }

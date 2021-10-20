@@ -2,10 +2,12 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Components/Home/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
-// import { Route, Router, Switch } from "react-router";  
+import Login from "./Components/Login/Login/Login";
+import Register from "./Components/Register/Register";
+// import { Route, Router, Switch } from "react-router";
 // import Header from "./Components/Header/Header";
 // import Login from "./Components/Login/Login";
-// import SignleTips from "./Components/SignleTips/SignleTips"; 
+// import SignleTips from "./Components/SignleTips/SignleTips";
 // import NotFound from "./Components/NotFound/NotFound";
 // import AuthProvider from "./Components/contexts/AuthProvider";
 // import PrivateRoute from "./Components/Login/PrivateRoute/PrivateRoute";
@@ -14,6 +16,8 @@ function App() {
   return (
     <div className="App">
       <Home></Home>
+      <Register></Register>
+      <Login></Login>
       <NotFound></NotFound>
       {/* <AuthProvider>
         <Router>

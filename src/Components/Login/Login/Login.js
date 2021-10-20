@@ -1,17 +1,17 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import useFirebase from "../../hooks/authFirebase";
+// import { Link } from "react-router-dom";
+// import useFirebase from "../../hooks/authFirebase";
 import "./Login.css";
 const Login = () => {
   // const { user, signInUsingGoogle, logOut } = useFirebase();
   return (
     <div>
       <div className="login-form ">
-        <Form className="w-25 bg-dark p-4 mt-5 login-form-edit">
-          <h2>Sign In</h2>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form className="bg-dark p-4 mt-5 login-form-edit">
+          <h2 className="text-white">Sign In</h2>
+          <Form.Group className="" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter email" />
           </Form.Group>
@@ -27,9 +27,9 @@ const Login = () => {
         </Form>
         <p className="text-center mt-4 mb-0">
           Don't have any account? &nbsp;
-          <Link to="/register" className="text-primary login-text ">
+          {/* <Link to="" className="text-primary login-text ">
             Create a new account
-          </Link>
+          </Link> */}
         </p>
         <div className="w-25 d-flex or-line mt-3">
           <div className="bg-dark line"></div> <p>or</p>{" "}
@@ -48,4 +48,4 @@ const Login = () => {
   );
 };
 
-// export default Login;
+export default Login;
