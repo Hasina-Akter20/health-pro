@@ -1,11 +1,9 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import { Link } from "react-router-dom";
-// import useFirebase from "../../hooks/authFirebase";
+
 import "./Login.css";
 const Login = () => {
-  // const { user, signInUsingGoogle, logOut } = useFirebase();
   return (
     <div>
       <div className="login-form ">

@@ -32,9 +32,7 @@ const Banner = () => {
               If you’re sacrificing sleep for downtime, you might be getting
               yourself into this bad habit. Here’s why experts...
             </p>
-            <Button variant="outline-light">
-              See More <i class="fas fa-angle-down"></i>
-            </Button>
+            <Button variant="outline-light">See More</Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -45,9 +43,7 @@ const Banner = () => {
               Most of us know that yoga is a good way to reduce stress and
               stretch your muscles, but is it strenuous enough ...
             </p>
-            <Button variant="outline-light">
-              See More <i class="fas fa-angle-down"></i>
-            </Button>
+            <Button variant="outline-light">See More</Button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
