@@ -7,7 +7,7 @@ import instagramtter from "../../Images/instagram.png";
 
 const Footer = () => {
   return (
-    <div className="bg-dark pb-3">
+    <div className="bg-dark pb-3 footer-part">
       <div className="d-flex justify-content-center pt-4">
         <div className="footer-img">
           <img className="img-fluid" src={footer} alt="" />
@@ -15,15 +15,21 @@ const Footer = () => {
         <h1 className="text-secondary">Health PRO</h1>
       </div>
       <p className="footer-text">
-        Health PRO's mentors share their wealth of knowledge and expertise and{" "}
+        Health PRO's mentors share their wealth of knowledge and expertise and
         <br />
         help guide you along your personal wellness journey.
       </p>
 
       <div className="pb-2">
-        <img className="icon-img1 me-2" src={facebook} alt="" />
-        <img className="icon-img2 me-2" src={twitter} alt="" />
-        <img className="icon-img3" src={instagramtter} alt="" />
+        <a href="https://www.facebook.com/">
+          <img className="icon-img1 me-2" src={facebook} alt="" />
+        </a>
+        <a href="https://twitter.com/">
+          <img className="icon-img2 me-2" src={twitter} alt="" />
+        </a>
+        <a href="https://www.instagram.com/">
+          <img className="icon-img3" src={instagramtter} alt="" />
+        </a>
       </div>
       <small className="footer-text ">Copyright © 2021 || Health PRO</small>
     </div>

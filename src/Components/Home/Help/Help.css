@@ -1,0 +1,32 @@
+.help-box {
+  box-shadow: 1px 1px 5px gray;
+  padding: 50px;
+}
+.help-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help-img-div {
+  width: 100px;
+}
+.padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 688px) {
+  .help-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .help-box {
+    width: 93%;
+  }
+
+  .padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

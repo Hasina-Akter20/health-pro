@@ -1,0 +1,17 @@
+.notfound-container {
+  color: antiquewhite;
+  width: 100%;
+}
+
+@media (max-width: 688px) {
+  .notfound-container {
+    height: 700px;
+    padding-top:100px
+  }
+}
+
+@media only screen and (min-width:689) {
+  .not-found-img{
+    padding: 300px;
+  }
+}

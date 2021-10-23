@@ -1,0 +1,19 @@
+.tips-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tips-tags {
+  padding-left: 30px;
+}
+.tips-tags h6 {
+  font-size: 30px;
+}
+.tips-tags p {
+  line-height: 2;
+}
+.tipsDetail-img {
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 10px;
+}

@@ -1,34 +1,28 @@
 import React from "react";
 import "./AboutUs.css";
 import aboutImg from "../../Images/about-us.jpg";
+import { Button } from "react-bootstrap";
 const AboutUs = () => {
   return (
-    <div className="text-center mb-5 text-primary">
-      <div className="about-sec">
-        {/* about us heading  */}
-        <h2 className="fw-bolder pt-5">About Us</h2>
+    <div className="mb-5  container">
+      <div>
+        <h1 className="text-primary pt-5 pb-4">About Us</h1>
       </div>
-      {/* elemenetor container  */}
-      <div className="elemenetor-container">
-        <div className="col-6">
-          <img src={aboutImg} alt="" />
+
+      <div className="about-container d-flex">
+        <div className="col-12 about-us-img col-lg-6">
+          <img className="img-fluid" src={aboutImg} alt="" />
         </div>
-        <div className="col-6">
-          <span className="about-us-title fw-bolder">About us</span>
-          <h1 className="fw-bolder pt-4">
-            {/* about us content  */}
-            Welcome to Medica Health Center
-          </h1>
-          <p className="text-muted fw-bolder">
+        <div className="col-12 col-lg-6 about-text">
+          <h1 className="text-primary pb-3">Welcome to Health PRO</h1>
+          <p className="text-dark pb-3">
             When you come to counseling, we work with you, your situation /
             issue and together we find the best treatment for you. All the tools
             we will use, you will be able to apply later in life, without
-            necessarily turning to the coach every time.
+            necessarily turning to the coach every time...
           </p>
-          {/* contact us button  */}
-          <button className="about-more-info-btn fw-bolder">
-            More Information
-          </button>
+
+          <Button variant="outline-dark">More Information</Button>
         </div>
       </div>
     </div>

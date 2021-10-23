@@ -1,3 +1,30 @@
 /* i {
     font-size: 30px;
 } */
+
+.banner-slide {
+  height: 500px;
+}
+.bottom-margin {
+  margin-bottom: 30px;
+}
+.slide-item h1 {
+  text-shadow: 1px 1px 5px gray;
+}
+
+@media only screen  and (max-width: 688px) {
+  .banner-slide {
+    height: 100%;
+  }
+  .bottom-margin {
+    margin-bottom: 5px;
+  }
+  .slide-item h1 {
+    font-size: medium;
+    text-shadow: 1px 1px 5px gray;
+  }
+  .slide-item p {
+    font-size: 11px;
+  }
+}
+

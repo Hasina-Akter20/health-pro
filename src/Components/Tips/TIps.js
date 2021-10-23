@@ -11,8 +11,8 @@ const Tips = () => {
   }, []);
 
   return (
-    <div className="mb-5">
-      <h2 className="text-primary mt-5 mb-4">Health Tips</h2>
+    <div className="mb-5 text-color">
+      <h1 className="text-primary mt-4 mb-4">Health Tips</h1>
       <div className="tips-container">
         {tips.map((single) => (
           <SingleTips key={single.id} single={single}></SingleTips>

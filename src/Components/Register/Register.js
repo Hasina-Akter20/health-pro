@@ -2,7 +2,8 @@ import Button from "react-bootstrap/Button";
 import React from "react";
 import { Form } from "react-bootstrap";
 import "./Register.css";
-// import { Link } from "react-router-dom";
+import { faFacebook, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Register = () => {
   return (
@@ -38,10 +39,12 @@ const Register = () => {
 
       <div className="login-button mt-4 mb-5">
         <button className="btn btn-danger btn-gradient me-3 login-buttons">
-          <i class="fab fa-google"></i>&nbsp; Google
+          <FontAwesomeIcon icon={faGoogle} />
+          &nbsp; Google
         </button>
         <button className="btn btn-primary  btn-gradient login-buttons">
-          <i class="fab fa-facebook"></i>&nbsp; Facebook
+          <FontAwesomeIcon className="icon-font-size" icon={faFacebook} />
+          &nbsp; Facebook
         </button>
       </div>
     </div>

@@ -1,0 +1,37 @@
+.phn-icon {
+  color: white;
+  background-color: blue;
+  font-size: 70px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.loc-icon {
+  color: white;
+  font-size: 35px;
+}
+.loc-div {
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  border-radius: 50%;
+}
+.contact-div {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.contact-div-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.contact-us-all-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

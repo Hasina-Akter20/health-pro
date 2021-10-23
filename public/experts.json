@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dr. Babatunde",
+    "topic": " Nutritionist ",
+    "img": "https://disin-react.hibootstrap.com/images/doctors/doctor1.jpg"
+  },
+  {
+    "name": "Dr. Mac Smith",
+    "topic": " Nutritionist ",
+    "img": "https://disin-react.hibootstrap.com/images/doctors/doctor5.jpg"
+  },
+  {
+    "name": "Dr. Shane Warne",
+    "topic": " Dental Surgeon",
+    "img": "https://disin-react.hibootstrap.com/images/doctors/doctor3.jpg                "
+  },
+  {
+    "name": "Dr. Addition Smith",
+    "topic": " Skin Specialist",
+    "img": "https://disin-react.hibootstrap.com/images/doctors/doctor4.jpg"
+  },
+  {
+    "name": "Dr. Jas Macham",
+    "topic": " Skin Specialist",
+    "img": "https://disin-react.hibootstrap.com/images/doctors/doctor5.jpg"
+  },
+  {
+    "name": "Dr. John Micheal",
+    "topic": "Physiologist",
+    "img": "https://disin-react.hibootstrap.com/images/doctors/doctor6.jpg"
+  }
+]

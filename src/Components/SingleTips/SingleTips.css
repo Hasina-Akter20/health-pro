@@ -1,11 +1,12 @@
 .card-img {
   width: 350px;
-  height: 250px;
+  height: 230px;
   border-radius: 5px;
 }
 /* .tips-card  {
 } */
-.tips-card{
-    box-shadow: 1px 1px 5px gray;
-    padding: 20px;
+.tips-card {
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 5px;
+  padding: 20px;
 }

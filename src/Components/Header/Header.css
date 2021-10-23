@@ -1,3 +1,8 @@
-.nav-ber-text{
-    color: white;
+.nav-ber-text {
+  color: white;
+}
+
+.user-icon {
+  color: rgb(228, 223, 223);
+  font-size: 20px;
 }
