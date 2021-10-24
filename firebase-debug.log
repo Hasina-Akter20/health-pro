@@ -1,0 +1,25 @@
+[debug] [2021-10-24T08:40:19.992Z] ----------------------------------------------------------------------
+[debug] [2021-10-24T08:40:19.995Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2021-10-24T08:40:19.995Z] CLI Version:   9.21.0
+[debug] [2021-10-24T08:40:19.995Z] Platform:      win32
+[debug] [2021-10-24T08:40:19.995Z] Node Version:  v14.17.4
+[debug] [2021-10-24T08:40:19.996Z] Time:          Sun Oct 24 2021 14:40:19 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-24T08:40:19.997Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-24T08:40:20.098Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-24T08:40:20.099Z] > authorizing via signed-in user (hasina18620@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web Development\health-website
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

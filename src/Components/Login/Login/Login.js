@@ -13,7 +13,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { googleSignIn, error, facebookSignIn, setError } = useAuth();
-  // console.log(email, password);
+
   const auth = getAuth();
 
   // signin with email and password
