@@ -37,13 +37,13 @@ const Register = () => {
         </div>
       </div>
 
-      <div className="login-button mt-4 mb-5">
-        <button className="btn btn-danger btn-gradient me-3 login-buttons">
+      <div className="login-button mt-4 mb-5  ">
+        <button className="btn btn-danger btn-gradient me-3 login-buttons google-icon">
           <FontAwesomeIcon icon={faGoogle} />
           &nbsp; Google
         </button>
-        <button className="btn btn-primary  btn-gradient login-buttons">
-          <FontAwesomeIcon className="icon-font-size" icon={faFacebook} />
+        <button className="btn btn-primary  btn-gradient login-buttons ">
+          <FontAwesomeIcon className="icon-font-size facebook-icon" icon={faFacebook} />
           &nbsp; Facebook
         </button>
       </div>

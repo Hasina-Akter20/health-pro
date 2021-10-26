@@ -23,3 +23,18 @@
 .txt-color {
   color: white;
 }
+
+@media only screen and (max-width: 688px) {
+  .login-button {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center ; 
+  }
+  .login-buttons {
+    margin-bottom: 15px;
+    margin-right: 0%;
+  }
+  .google-icon {
+    margin-left: 18px;
+  }
+}
